@@ -57,9 +57,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#details">Serviços</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a class="nav-link" href="#details">Sobre</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Contato</a>
                     </li>
@@ -75,7 +75,7 @@
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-outline-sm" href="#contact">Quero meu site!!</a>
+                    <a class="btn-outline-sm" href="#contact">Quero ser Nutremp!!</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -108,6 +108,14 @@
         <img id="imgdoscontainer" src="./images/2.jpg" />
         <img style="opacity: 0;" id="imgdoscontainer" src="./images/2.jpg" />
       </div>
+      <div class="swiper-slide">
+        <img id="imgdoscontainer" src="./images/pexels-photo-4255387.jpeg" />
+        <img style="opacity: 0;" id="imgdoscontainer" src="./images/2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img id="imgdoscontainer" src="./images/6.jpg" />
+        <img style="opacity: 0;" id="imgdoscontainer" src="./images/2.jpg" />
+      </div>
 
 
     </div>
@@ -131,7 +139,7 @@
                         <div class="card-body">
                           <h5 style="color: #000;" class="card-title">Consultoria Sanitária</h5>
                           <p class="card-text">Através de uma equipe especializada, a Nutremp garatente toda a tragetória sanitária de sua empresa.</p>
-                          <a href="#" class="btn-solid-lg">Saiba mais</a>
+                          <a href="#contact" class="btn-solid-lg">Saiba mais</a>
                         </div>
                       </div>
                 </div> <!-- end of col -->
@@ -141,7 +149,7 @@
                         <div class="card-body">
                           <h5 style="color: #000;" class="card-title">Elaboração de Tabelas Nutricionais e Rótulos de Alimentos</h5>
                           <p class="card-text">Elaboração completa ou apenas partes com informações das tabelas.</p>
-                          <a href="#" class="btn btn-solid-lg">Saiba mais</a>
+                          <a href="#contact" class="btn btn-solid-lg">Saiba mais</a>
                         </div>
                       </div>
                 </div> <!-- end of col -->
@@ -151,7 +159,7 @@
                         <div class="card-body">
                           <h5 style="color: #000;" class="card-title">Conheça a Nutremp e o que podemos fazer juntos.</h5>
                           <p class="card-text">Um pouco da nossa história e o que podemos fazer, entre em contato :</p>
-                          <a href="#" class="btn btn-solid-lg">Saiba mais</a>
+                          <a href="#contact" class="btn btn-solid-lg">Saiba mais</a>
                         </div>
                       </div>
                     </div> 
@@ -194,7 +202,7 @@
                                 <div class="flex-grow-1"> Preparação do estabelecimento em conformidade com a legislação vigente </div>
                             </li>
                         </ul>
-                        <a class="btn-solid-reg" href="#services">Conheça mais sobre nós !</a>
+                        <a class="btn-solid-reg" href="#contact">Conheça mais sobre nós !</a>
                     </div> <!-- end of text-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -247,7 +255,7 @@
                 </div> <!-- end of col -->
                 <div class="col-lg-6 col-xl-5">
                     <div class="image-container">
-                        <img style="border-radius: 115px; box-shadow: 20px 20px 20px grey;" class="img-fluid" src="images/pexels-photo-4255387.jpeg" alt="alternative">
+                        <img style="border-radius: 115px; box-shadow: 20px 20px 20px grey;height: 500px;" class="img-fluid" src="images/pexels-photo-4255387.jpeg" alt="alternative">
                     </div> <!-- end of image-container -->
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
@@ -403,6 +411,10 @@
                 slideShadows: true,
                 
               },
+              autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
               pagination: {
                 el: ".swiper-pagination",
               },
