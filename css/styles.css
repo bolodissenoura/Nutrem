@@ -357,6 +357,7 @@ a:hover {
 }
 
 .navbar .nav-item .nav-link {
+	font-size: 18px;
 	padding-top: 0.625rem;
 	padding-bottom: 0.625rem;
 	color: #000;
